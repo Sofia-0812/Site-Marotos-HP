@@ -1,0 +1,22 @@
+body {
+    background-color: antiquewhite;
+    text-align: justify;
+    font-size: large;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#principal p {
+    display: inline-block;
+}
+#principal {
+    float: left;
+    width: 30%;
+    margin-right: 20px;
+}
+p {
+    width: calc(98% - 20px);
+}
+
+
+
+

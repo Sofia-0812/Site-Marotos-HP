@@ -1,0 +1,50 @@
+#img1 {
+    display: block;
+    width: 80%;
+    margin: 1% auto;
+}
+body {
+    font-size: large;
+    background-color: antiquewhite;
+    text-align: justify;
+}
+ section div {
+    display: inline-block;
+    width: calc(49.7% - 16px);
+    margin: 8px;
+    background-color: bisque;
+    vertical-align: top;
+    border: 2px solid;
+    border-color: gray;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+section {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+ 
+}
+div p img {
+    width: 30%;
+    display: block;
+    margin: 10px auto;
+}
+#img2 {
+    width: 32%;
+}
+h1 {
+    margin-left: 10%;
+}
+button {
+    background-color: maroon;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 0px black;
+}
+button:hover {
+    transform: scale(1.05);
+}
